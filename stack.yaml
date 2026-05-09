@@ -1,0 +1,8 @@
+# Stack configuration for TP-Final (Simulador de Circuitos Cuánticos)
+# https://docs.haskellstack.org/en/stable/yaml_configuration/
+
+# LTS snapshot que provee GHC 9.4.x y las dependencias necesarias (parsec, base).
+resolver: lts-21.25
+
+packages:
+  - .
